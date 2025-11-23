@@ -1,0 +1,28 @@
+.rouned{
+    border-radius: 6px;
+}
+
+.rouned-full{
+    border-radius: 100px;
+}
+
+/* mb-32 */
+.btn-box{
+    margin-bottom: 32px;
+}
+
+.mb-32{
+    margin-bottom: 32px
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}

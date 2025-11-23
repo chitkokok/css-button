@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:  "Inter", sans-serif;
+    font-size: 12px;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 60px 40px;
+    margin: 50px;
+    width: 523px;
+    border-radius: 20px;
+}
+
+main{
+    margin: 40px;
+}
