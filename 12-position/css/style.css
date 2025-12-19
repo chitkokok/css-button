@@ -4,9 +4,81 @@
     box-sizing: border-box;
 }
 
+ body{
+    /* border: 2px solid red; */
+    height: 500vh;
+}
+
 .box1{
     border: 1px solid black;
     width: 800px;
     height: 500px;
     margin: 50px auto;
+}
+
+.img-1{
+    position: static;
+}
+
+.para-1{
+    position: static;
+}
+
+/* relative */
+.box2{
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.img-2{
+     position: relative;
+     top: 50px;
+     left: 50px;
+     z-index: 2;
+}
+
+.para-2{
+     position: relative; 
+     /* left: 50px; */
+     /* top: 50px; */
+     z-index: 3;
+}
+
+
+/* absolute */
+.box3{
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.img-3{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.para-3{
+    position: relative;
+}
+
+/* fixed */
+.box4{
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.img-4{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+}
+
+.para-4{
 }
