@@ -81,4 +81,22 @@
 }
 
 .para-4{
+     
+}
+
+/* sticky */
+.box5{
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.img-5{
+    position: sticky;
+    top: 30px;
+}
+
+.para-5{
+     
 }
